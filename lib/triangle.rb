@@ -14,7 +14,7 @@ class Triangle
     else
       if (self.a == self.b) && (self.b == self.c) && (self.a == self.c)
         :equilateral
-      elsif (a == b) || (b == c) || (a == c)
+      elsif (self.a == self.b) || (self.b == self.c) || (self.a == self.c)
         :isosceles
       else
         :scalene
