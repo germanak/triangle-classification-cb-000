@@ -14,7 +14,6 @@ class Triangle
     else
       if (a == b) && (b == c) && (a == c)
         :equilateral
-
       end
     end
   end
