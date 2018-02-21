@@ -13,8 +13,8 @@ class Triangle
       raise TriangleError
     else
       if (a == b) && (b == c) && (a == c)
-        :qu
-        
+        :equilateral
+
       end
     end
   end
