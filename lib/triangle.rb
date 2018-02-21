@@ -9,7 +9,7 @@ class Triangle
   end
 
   def kind
-
+    if self.a < 0 && self.b < 0 && self.c < 0
   end
 end
 
